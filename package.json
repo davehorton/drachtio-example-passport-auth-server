@@ -1,0 +1,26 @@
+{
+  "name": "drachtio-example-passport-auth-server",
+  "version": "1.0.0",
+  "description": "Example showing how to integrate digest authentication into a drachtio user agent server (UAS)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davehorton/drachtio-example-passport-auth-server.git"
+  },
+  "author": "Dave Horton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davehorton/drachtio-example-passport-auth-server/issues"
+  },
+  "homepage": "https://github.com/davehorton/drachtio-example-passport-auth-server#readme",
+  "dependencies": {
+    "drachtio": "^1.0.8",
+    "drachtio-fsmrf": "^0.100.3",
+    "drachtio-srf": "^3.0.1",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
+  }
+}
